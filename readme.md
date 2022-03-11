@@ -3,7 +3,7 @@
 </h2>
 <br>
 
-### Descrição
+### Descrição (Description)
 
 <p>Script para automação de processo de obtenção de dados a partir de um banco de dados, tratamento desses dados, composição e envio de email com informações tratadas.</p>
 
@@ -34,7 +34,7 @@
 <br>
 
 
-### Rodar o projeto (Running the project)
+### Rodando o projeto (Running the project)
 
 * O processo de automação através do Pyautogui controla os inputs do mouse e teclado para simular o acesso humano. Para isso, ele depende das coordenadas do mouse sobre os pontos a serem clicados. O script get_mouse_location.py, quando executado, aguarda 5 segundos, captura e imprime na tela as coordenadas (x e y) da posição do mouse. Execute o get_mouse_location.py sempre que necessário capturar novas coordenadas e atualize as coordenadas de cada clique nas funções pyautogui.click, modificando também os parâmetros click e button para definir a quantidade de cliques e qual botão do mouse utilizar.
 * Atualize a url de acesso ao arquivo de banco de dados na função pyperclip.copy
