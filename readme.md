@@ -5,7 +5,7 @@
 
 ### Descrição (Description)
 
-<p>Script para automação de processo de obtenção de dados a partir de um banco de dados, tratamento desses dados, composição e envio de email com informações tratadas.</p>
+<p>Script em Python para automação de processo de obtenção de dados a partir de um banco de dados, tratamento desses dados, composição e envio de email com informações tratadas.</p>
 
 <p>Automation script that imports from a DB, treat data and send them by email.</p>
 <br>
