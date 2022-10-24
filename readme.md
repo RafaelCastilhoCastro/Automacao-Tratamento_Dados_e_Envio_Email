@@ -3,14 +3,14 @@
 </h2>
 <br>
 
-### Descrição (Description)
+### Descrição
 
 <p>Script em Python para automação de processo de obtenção de dados a partir de um banco de dados, tratamento desses dados, composição e envio de email com informações tratadas.</p>
 
 <p>Automation script that imports from a DB, treat data and send them by email.</p>
 <br>
 
-### Funcionalidades do projeto (Project Functionalities)
+### Funcionalidades do projeto
 
 * Acessa e baixa arquivo Excel em um Google Drive através do navegador
 * Acessa os dados do arquivo e calcula a quantidade de items vendidos e total faturado
@@ -24,7 +24,7 @@
 <br>
 
 
-### Tecnologias utilizadas (Dependencies)
+### Tecnologias utilizadas
 
 * Pyautogui
 * Pyperclip
@@ -34,7 +34,7 @@
 <br>
 
 
-### Rodando o projeto (Running the project)
+### Rodando o projeto
 
 * Esse script não funciona em segundo plano, o usuário precisa aguarda-lo finalizar para que não haja conflito nas funções.
 * O processo de automação através do Pyautogui controla os inputs do mouse e teclado para simular o acesso humano. Para isso, ele depende das coordenadas do mouse sobre os pontos a serem clicados. O script get_mouse_location.py, quando executado, aguarda 5 segundos, captura e imprime na tela as coordenadas (x e y) da posição do mouse. Execute o get_mouse_location.py sempre que necessário capturar novas coordenadas e atualize as coordenadas de cada clique nas funções pyautogui.click, modificando também os parâmetros click e button para definir a quantidade de cliques e qual botão do mouse utilizar.
